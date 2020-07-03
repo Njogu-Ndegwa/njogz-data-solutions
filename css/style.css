@@ -28,9 +28,9 @@ a {
     text-decoration: none;
 }
 
-p {
+/* p {
     margin: 0.5rem 0;
-}  
+}   */
 
 img {
     width: 100%;
@@ -168,6 +168,33 @@ padding: 1.5rem 0;
     justify-content: center;
     align-items: center;
 }
+
+/* Table */
+.table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table tbody tr td {
+    color: #999;
+    padding: 0.8rem 1,2rem;
+    text-align: center;
+}
+
+.table tbody tr td:first-child, table thead th:first-child {
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #222;
+}
 /* Container */
 
 .container {
@@ -181,20 +208,29 @@ padding: 1.5rem 0;
 
 .txt-xl {
     font-size: 2rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .txt-lg {
     font-size: 1.8rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .txt-md {
     font-size: 1.5rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 .txt-dark {
     color: #999;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.text-center p {
+    margin-bottom: 2rem;
 }
 
 /* Button */
