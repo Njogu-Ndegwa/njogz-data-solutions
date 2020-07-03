@@ -28,6 +28,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0.5rem 0;
+}  
+
 img {
     width: 100%;
 }
@@ -132,6 +136,21 @@ padding: 1.5rem 0;
  cursor: pointer;
 }
 
+/* Tab content */
+.tab-content {
+    background: #000;
+    color: #fff;
+    padding: 2rem 0;
+
+}
+
+#tab-1-content .tab-1-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 /* Container */
 
 .container {
@@ -139,6 +158,23 @@ padding: 1.5rem 0;
     margin: auto;
     overflow: hidden;
     padding: 0 2rem;
+}
+
+/* Text */
+
+.txt-xl {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.txt-lg {
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.txt-md {
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 /* Button */
@@ -166,6 +202,12 @@ padding: 1.5rem 0;
 .btn-xl {
     margin-top: 1rem;
     font-size: 1.5rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2.3rem;
     text-transform: uppercase;
+}
+
+.btn-lg {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 1.7rem;
 }
