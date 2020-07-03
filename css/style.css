@@ -151,6 +151,23 @@ padding: 1.5rem 0;
     justify-content: center;
     align-items: center;
 }
+
+#tab-2-content .tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#tab-2-content .tab-2-content-bottom {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 /* Container */
 
 .container {
@@ -175,6 +192,9 @@ padding: 1.5rem 0;
 .txt-md {
     font-size: 1.5rem;
     padding: 1rem;
+}
+.txt-dark {
+    color: #999;
 }
 
 /* Button */
@@ -210,4 +230,5 @@ padding: 1.5rem 0;
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 1rem 1.7rem;
+    text-align: center;
 }
