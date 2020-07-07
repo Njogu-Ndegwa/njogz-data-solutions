@@ -266,6 +266,12 @@ padding: 1.5rem 0;
 
 }
 
+.text-bold {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+
+}
+
 .text-center p {
     margin-bottom: 2rem;
 }
