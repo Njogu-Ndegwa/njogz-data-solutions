@@ -320,7 +320,7 @@ padding: 1.5rem 0;
 
 @media(max-width:960px) {
     .showcase {
-        height: 70vh;
+        height: 80vh;
     }
 
     .hide-sm {
